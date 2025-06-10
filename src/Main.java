@@ -3,6 +3,11 @@ import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
+//        39
+
+
+
     public static void main(String[] args) {
         Scanner scannerInt = new Scanner(System.in);
         double pi = 3.14;
@@ -224,6 +229,223 @@ public class Main {
 //        System.out.println("B = " + B);
 
 //        23
+
+//        System.out.print("A = "); int A = scannerInt.nextInt();
+//        System.out.print("B = "); int B = scannerInt.nextInt();
+//        System.out.print("C = "); int C = scannerInt.nextInt();
+//
+//        int temp = A;
+//        A = B;
+//        B = C;
+//        C = temp;
+//
+//        System.out.println("Begin23 natija:");
+//        System.out.println("A = " + A);
+//        System.out.println("B = " + B);
+//        System.out.println("C = " + C);
+//
+//        // 24
+//
+//        System.out.print("A = "); A = scannerInt.nextInt();
+//        System.out.print("B = "); B = scannerInt.nextInt();
+//        System.out.print("C = "); C = scannerInt.nextInt();
+//
+//        temp = A;
+//        A = C;
+//        C = B;
+//        B = temp;
+//
+//        System.out.println("A = " + A);
+//        System.out.println("B = " + B);
+//        System.out.println("C = " + C);
+
+//        25
+
+
+//        System.out.print("x = ");
+//        int x = scannerInt.nextInt();
+//        double y=3*Math.pow(x,6)-6*Math.pow(x,2)-7;
+//
+//        System.out.println("Y="+y);
+
+
+//        26
+//        System.out.print("x = ");
+//        int x = scannerInt.nextInt();
+//        double y=4*Math.pow((x-3),6)-7*Math.pow((x-3),3)+2;
+//        System.out.println("Y="+y);
+//
+//        27
+
+//        System.out.print("A = ");
+//        int a = scannerInt.nextInt();
+//        System.out.println("a^2 = " + Math.pow((a),2) + ", a^4 = " + Math.pow((a),4) + ", a^8 = " + Math.pow((a),8));
+
+//        28
+//        System.out.print("A = ");
+//        int a = scannerInt.nextInt();
+//        System.out.println("a^2 = " + Math.pow((a), 2) + ", a^3 = " + Math.pow((a), 3) + ", a^5 = " + Math.pow((a), 5)+ ", a^15 = " + Math.pow((a), 15));
+
+//      29
+//        System.out.print("A = ");
+//        int gradus = scannerInt.nextInt();
+//        if (0 > gradus || gradus > 360) System.out.println("xatolik");
+//        gradus × π / 180
+//        else{
+//            System.out.println("Radian="+gradus*pi/180);
+//        }
+
+//        30
+
+//        System.out.print("A = ");
+//        int radian = scannerInt.nextInt();
+//        gradus = radian × 180 / π
+//        System.out.println("gradus="+radian*180/pi);
+
+//      31-32
+
+//        System.out.print("TF = ");
+//        int TF = scannerInt.nextInt();
+//        double TC = (TF - 32) * 5 / 9;
+//        System.out.println(TC);
+
+//        33
+
+//        System.out.print("X kg A konfeti narxi: ");
+//        double x = scannerInt.nextDouble();
+//        System.out.print("Y kg B konfeti narxi: ");
+//        double y = scannerInt.nextDouble();
+//        System.out.print("1 kg A: ");
+//        double A = scannerInt.nextDouble();
+//        System.out.print("1 kg B: ");
+//        double B = scannerInt.nextDouble();
+//
+//        double total = x * A + y * B;
+//        System.out.println("Jami narxi: " + total);
+
+//        34
+
+//        System.out.print("1 kg shokolad narxi: ");
+//        double chPrice = scannerInt.nextDouble();
+//        System.out.print("1 kg konfet narxi: ");
+//        double kPrice = scannerInt.nextDouble();
+//        System.out.print("X kg shokolad: ");
+//        double x = scannerInt.nextDouble();
+//        System.out.print("Y kg konfet: ");
+//        double y = scannerInt.nextDouble();
+//
+//        double total = x * chPrice + y * kPrice;
+//        System.out.println("Jami narxi: " + total);
+
+
+//        35
+
+//        System.out.print("Qayiqning tezligi (V): ");
+//        double V = scannerInt.nextDouble();
+//        System.out.print("Daryo oqimi tezligi (U): ");
+//        double U = scannerInt.nextDouble();
+//        System.out.print("Oqim bo'yicha vaqt T1: ");
+//        double T1 = scannerInt.nextDouble();
+//        System.out.print("Oqimga qarshi vaqt T2: ");
+//        double T2 = scannerInt.nextDouble();
+//
+//        double S = (V + U) * T1 + (V - U) * T2;
+//        System.out.println("Qayiq yurgan masofa: " + S);
+
+
+//        36
+
+//        System.out.print("V1 tezlik: ");
+//        double V1 = scannerInt.nextDouble();
+//        System.out.print("V2 tezlik: ");
+//        double V2 = scannerInt.nextDouble();
+//        System.out.print("Boshlang'ich masofa S: ");
+//        double S = scannerInt.nextDouble();
+//        System.out.print("Vaqt T: ");
+//        double T = scannerInt.nextDouble();
+//
+//        double distance = S + (V1 + V2) * T;
+//        System.out.println("Oraliq masofa: " + distance);
+
+//        37
+
+//        System.out.print("V1 tezlik: ");
+//        double V1 = scannerInt.nextDouble();
+//        System.out.print("V2 tezlik: ");
+//        double V2 = scannerInt.nextDouble();
+//        System.out.print("Boshlang'ich masofa S: ");
+//        double S = scannerInt.nextDouble();
+//        System.out.print("Vaqt T: ");
+//        double T = scannerInt.nextDouble();
+//
+//        double distance = Math.abs(S - (V1 + V2) * T);
+//        System.out.println("Oraliq masofa: " + distance);
+
+//
+//        38
+
+//        System.out.print("A: ");
+//        double A = scannerInt.nextDouble();
+//        System.out.print("B: ");
+//        double B = scannerInt.nextDouble();
+//
+//        if (A != 0) {
+//            double x = -B / A;
+//            System.out.println("Yechim: x = " + x);
+//        } else {
+//            System.out.println("A 0 bo'lishi mumkin emas.");
+
+//    39
+
+        System.out.print("A: ");
+        double A = scannerInt.nextDouble();
+        System.out.print("B: ");
+        double B = scannerInt.nextDouble();
+        System.out.print("C: ");
+        double C = scannerInt.nextDouble();
+
+        if (A == 0) {
+            System.out.println("Kvadrat tenglama emas (A = 0).");
+        } else {
+            double D = B * B - 4 * A * C;
+            System.out.println("Diskriminant D = " + D);
+
+            if (D > 0) {
+                double x1 = (-B + Math.sqrt(D)) / (2 * A);
+                double x2 = (-B - Math.sqrt(D)) / (2 * A);
+                System.out.println("2 ta haqiqiy yechim: x1 = " + x1 + ", x2 = " + x2);
+            } else if (D == 0) {
+                double x = -B / (2 * A);
+                System.out.println("Bitta yechim: x = " + x);
+            } else {
+                System.out.println("Haqiqiy yechim yo'q (kompleks ildizlar mavjud).");
+            }
+        }
+
+
+
+//        40
+
+
+//        double A1 = scannerInt.nextDouble();
+//        double B1 = scannerInt.nextDouble();
+//        double C1 = scannerInt.nextDouble();
+//        double A2 = scannerInt.nextDouble();
+//        double B2 = scannerInt.nextDouble();
+//        double C2 = scannerInt.nextDouble();
+//
+//        double D = A1 * B2 - A2 * B1;
+//        if (D != 0) {
+//            double x = (C1 * B2 - C2 * B1) / D;
+//            double y = (A1 * C2 - A2 * C1) / D;
+//            System.out.println("Yechim: x = " + x + ", y = " + y);
+//        } else {
+//            System.out.println("Tizimda yechim yo'q yoki cheksiz.");
+//        }
+
+
+
+
 
 
 
