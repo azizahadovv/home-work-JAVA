@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
+import static java.util.Collections.max;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
 //        39
-
 
 
     public static void main(String[] args) {
@@ -397,31 +398,30 @@ public class Main {
 
 //    39
 
-        System.out.print("A: ");
-        double A = scannerInt.nextDouble();
-        System.out.print("B: ");
-        double B = scannerInt.nextDouble();
-        System.out.print("C: ");
-        double C = scannerInt.nextDouble();
-
-        if (A == 0) {
-            System.out.println("Kvadrat tenglama emas (A = 0).");
-        } else {
-            double D = B * B - 4 * A * C;
-            System.out.println("Diskriminant D = " + D);
-
-            if (D > 0) {
-                double x1 = (-B + Math.sqrt(D)) / (2 * A);
-                double x2 = (-B - Math.sqrt(D)) / (2 * A);
-                System.out.println("2 ta haqiqiy yechim: x1 = " + x1 + ", x2 = " + x2);
-            } else if (D == 0) {
-                double x = -B / (2 * A);
-                System.out.println("Bitta yechim: x = " + x);
-            } else {
-                System.out.println("Haqiqiy yechim yo'q (kompleks ildizlar mavjud).");
-            }
-        }
-
+//        System.out.print("A: ");
+//        double A = scannerInt.nextDouble();
+//        System.out.print("B: ");
+//        double B = scannerInt.nextDouble();
+//        System.out.print("C: ");
+//        double C = scannerInt.nextDouble();
+//
+//        if (A == 0) {
+//            System.out.println("Kvadrat tenglama emas (A = 0).");
+//        } else {
+//            double D = B * B - 4 * A * C;
+//            System.out.println("Diskriminant D = " + D);
+//
+//            if (D > 0) {
+//                double x1 = (-B + Math.sqrt(D)) / (2 * A);
+//                double x2 = (-B - Math.sqrt(D)) / (2 * A);
+//                System.out.println("2 ta haqiqiy yechim: x1 = " + x1 + ", x2 = " + x2);
+//            } else if (D == 0) {
+//                double x = -B / (2 * A);
+//                System.out.println("Bitta yechim: x = " + x);
+//            } else {
+//                System.out.println("Haqiqiy yechim yo'q (kompleks ildizlar mavjud).");
+//            }
+//        }
 
 
 //        40
@@ -444,10 +444,259 @@ public class Main {
 //        }
 
 
+//        *-**-*-**-*-*-*****************************************************************************
 
+
+//        shart operatorlariga oid masalalar
+
+
+//        1
+//        System.out.print("Son kiriting= ");
+//        int num = scannerInt.nextInt();
+//        if (num < 0) System.out.println(num);
+//        else System.out.println(++num);
+
+//        2
+//        System.out.print("Son kiriting= ");
+//        int num = scannerInt.nextInt();
+//        if (num < 0) System.out.println(num-2);
+//        else System.out.println(num+1);
+//        3
+//
+//        System.out.print("Son kiriting= ");
+//        int num = scannerInt.nextInt();
+//        if (num < 0) System.out.println(num-2);
+//        else if (num==0) System.out.println(num+10);
+//        else System.out.println(num+1);
+
+//        4
+
+//        System.out.print("A: ");
+//        int a = scannerInt.nextInt();
+//        System.out.print("B: ");
+//        int b = scannerInt.nextInt();
+//        System.out.print("C: ");
+//        int c = scannerInt.nextInt();
+//
+//        int count = 0;
+//
+//        if (a > 0) count++;
+//        if (b > 0) count++;
+//        if (c > 0) count++;
+//
+//        System.out.println("Musbatlar="+count);
+
+//        5
+
+//        System.out.print("A: ");
+//        int a = scannerInt.nextInt();
+//        System.out.print("B: ");
+//        int b = scannerInt.nextInt();
+//        System.out.print("C: ");
+//        int c = scannerInt.nextInt();
+
+//        int musbat = 0, manfiy = 0;
+//
+//        if (a > 0) musbat++; else if (a < 0) manfiy++;
+//        if (b > 0) musbat++; else if (b < 0) manfiy++;
+//        if (c > 0) musbat++; else if (c < 0) manfiy++;
+//        System.out.println("Musbat: " + musbat + ", Manfiy: " + manfiy);
+
+
+//        6
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//
+//        int max = (a > b) ? a : b;
+//        System.out.println("Katta son: " + max);
+
+//        7
+
+//        System.out.print("A: ");
+//        int a = scannerInt.nextInt();
+//        System.out.print("B: ");
+//        int b = scannerInt.nextInt();
+//
+//        if (a < b) System.out.println("Kichik son: 1");
+//        else System.out.println("Kichik son: 2");
+
+//        8
+
+//        System.out.print("A: ");
+//        int a = scannerInt.nextInt();
+//        System.out.print("B: ");
+//        int b = scannerInt.nextInt();
+//
+//        if (a > b) {
+//            System.out.println("Katta: " + a);
+//            System.out.println("Kichik: " + b);
+//        } else {
+//            System.out.println("Katta: " + b);
+//            System.out.println("Kichik: " + a);
+
+
+//        9
+
+//        double a = scannerInt.nextDouble();
+//        double b = scannerInt.nextDouble();
+//
+//        if (a > b) {
+//            double temp = a;
+//            a = b;
+//            b = temp;
+//        }else System.out.println("xatolik");
+//
+//        System.out.println("A: " + a);
+//        System.out.println("B: " + b);
+
+
+//      10
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//
+//        if (a != b) System.out.println(a + b);
+//        else System.out.println(0);
+//        System.out.println("A: " + a);
+//        System.out.println("B: " + b);
+
+//        11
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//
+//        if (a != b) {
+//            int max = Math.max(a, b);
+//            a = max;
+//            b = max;
+//        } else {
+//            a = 0;
+//            b = 0;
+//        }
+//
+//        System.out.println("A: " + a);
+//        System.out.println("B: " + b);
+//
+
+//        12
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+//
+//        int min = Math.min(a, b);
+//        if (min>c) System.out.println(c);
+//        else System.out.println(min);
+
+//         13
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+//        int num;
+//        if ((a > b && a < c) || (a > c && a < b)) {
+//            num = a;
+//        } else if ((b > a && b < c) || (b > c && b < a)) {
+//            num = b;
+//        } else {
+//            num = c;
+//        }
+//        System.out.println(num);
+
+//        14
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+//
+//        int max = a;
+//        int min = a;
+//
+//        if (b > max) {
+//            max = b;
+//        }
+//        if (c > max) {
+//            max = c;
+//        }
+//
+//        if (b < min) {
+//            min = b;
+//        }
+//        if (c < min) {
+//            min = c;
+//        }
+//
+//        System.out.println("katta: " + max);
+//        System.out.println("kichik: " + min);
+
+
+//        15
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+
+//        int sumAB = a + b;
+//        int sumAC = a + c;
+//        int sumBC = b + c;
+//
+//        if (sumAB >= sumAC && sumAB >= sumBC) {
+//            System.out.println("Eng katta yig‘indi: a + b = " + sumAB);
+//            System.out.println( a + " va " + b);
+//        } else if (sumAC >= sumAB && sumAC >= sumBC) {
+//            System.out.println("Eng katta yig‘indi: a + c = " + sumAC);
+//            System.out.println( a + " va " + c);
+//        } else {
+//            System.out.println("Eng katta yig‘indi: b + c = " + sumBC);
+//            System.out.println(b + " va " + c);
+//        }
+
+//      16
+
+
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+//
+//        if (a == b - 1 && b == c - 1) {
+//            a *= 2;
+//            b *= 2;
+//            c *= 2;
+//        } else {
+//            a = -a;
+//            b = -b;
+//            c = -c;
+//        }
+//
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+
+//        16
+
+
+        int a = scannerInt.nextInt();
+        int b = scannerInt.nextInt();
+        int c = scannerInt.nextInt();
+
+        if (a == b - 1 && b == c - 1|| c==b-1&&b==a-1) {
+            a *= 2;
+            b *= 2;
+            c *= 2;
+        } else {
+            a = -a;
+            b = -b;
+            c = -c;
+        }
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
 
 
 
     }
 }
+
