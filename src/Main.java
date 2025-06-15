@@ -2,16 +2,208 @@ import java.util.Scanner;
 
 import static java.util.Collections.max;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-
-//        39
 
 
     public static void main(String[] args) {
         Scanner scannerInt = new Scanner(System.in);
         double pi = 3.14;
+
+//        mantiqiy misollar Azizbek Rajabov 1-misol
+
+//        int amuD = 2540;
+//        int sirD = amuD + 479;
+//        System.out.println("sirdaryoning uzunligi=" + sirD);
+
+//        2
+//        int nurCH=123;
+//        int sherCH=nurCH+45;
+//        System.out.println("Sherali Cho'ponda="+sherCH+ " " + "ikkala cho'ponda "+ nurCH+sherCH);
+
+//        4
+
+//        int obod = 23;
+//        int ozod = obod - 4;
+//        System.out.println("Ozod qishlog‘igacha bo‘lgan yo‘l: " + ozod + " km");
+
+//        5
+//        int sm = 100;
+//        int mm = 1000;
+//        System.out.println("1 metr = " + sm + " sm, " + mm + " mm");
+
+//        6
+//        int pul = 2500;
+//        int daftar = 500;
+//        int muzqaymoq = 600;
+//        int xarid = daftar + muzqaymoq;
+//        int qoldiq = pul - xarid;
+//        System.out.println("Xarid: " + xarid + " so‘m");
+//        System.out.println("Qolgan pul: " + qoldiq + " so‘m");
+
+//        7
+//        int kinoteatr = 1200;
+//        int maktab = 850;
+//        int farq = kinoteatr - maktab;
+//        System.out.println("Maktab masofasi kinoteatrdan " + farq + " m qisqa");
+
+//      8
+//        System.out.println("C va D nuqtalar AB kesmani 3 qismga ajratadi: AC, CD, DB");
+
+//        9
+//        int AC = 56;
+//        int CB = AC + 23;
+//        int AB = AC + CB;
+//        System.out.println("AB kesma uzunligi: " + AB + " sm");
+
+//        11
+
+//        int kartoshka = 2, lavlagi = 3, sabzi = 5, karam = 5;
+//        int meva = 4 + 2 + 3; // olma, nok, olxo‘ri
+//        int sabzavot = kartoshka + lavlagi + sabzi + karam;
+//        System.out.println("Meva: " + meva + " kg, Sabzavot: " + sabzavot + " kg");
+
+
+//        12
+//        int first = 125;
+//        int second = first + 42;
+//        int third = second + 28;
+//        int total = first + second + third;
+//        System.out.println("Jami kartoshka: " + total + " t");
+
+//        13
+//        int asilbek = 12750; // 12 kg 750 g
+//        int shohruh = asilbek + 8500;
+//        int total = asilbek + shohruh;
+//        System.out.println("Jami pomidor: " + total + " g = " + total / 1000.0 + " kg");
+
+//        14
+//        int masofa = 1050;
+//        int yurilgan = 685;
+//        int qolgan = masofa - yurilgan;
+//        System.out.println("Qolgan yo‘l: " + qolgan + " km");
+
+//        15
+//        int AB = 48;
+//        int CB = 29;
+//        int AC = AB - CB;
+//        System.out.println("AC kesma: " + AC + " sm");
+
+//        16
+//        int suv = 1000;
+//        int benzin = suv - 270;
+//        System.out.println("Benzin massasi: " + benzin);
+
+//        17
+//        int c = 21;
+//        int first = 56;
+//        int second = first + c;
+//        int third = second - 24;
+//        int total = first + second + third;
+//        System.out.println("Kitob jami: " + total + " bet");
+
+//        18
+//        int son = 142 - 74 - 21;
+//        System.out.println("18: " + son);
+
+//        19
+//        int y = (144 + 12 - 24) / 3;
+//        System.out.println("19: " + y);
+
+//        20
+//        int x = (62 - 8 + 3) / 3;
+//        System.out.println("20: " + x);
+
+//        21
+
+//            int daftars = 10;
+//            int ortiq = 6;
+//            int yetishmaydi = 5;
+//
+//            int jami = daftars * ortiq + ortiq; // 10x + 6 = 11x - 5 => x = 11
+//            int bolalar = jami / (daftars + 1);
+//
+//            System.out.println("21: " + bolalar);
+//
+//
+//
+//            int ikkiOrkachli = 17;
+//            int birOrkachli = 24 - ikkiOrkachli;
+//            System.out.println("22: " + birOrkachli);
+//
+//
+//            int boyi = 516;
+//            int eni = boyi - 145;
+//            int perimetr = 2 * (boyi + eni);
+//            System.out.println("23: " + perimetr);
+//
+//
+//            int nargiza = 5;
+//            int dono = nargiza + 7;
+//            int ota = dono * 3;
+//            System.out.println("24: Dono - " + dono + ", Ota - " + ota);
+//
+//
+//            int birinchi = 27;
+//            int ikkinchi = birinchi * 3;
+//            int jami = birinchi + ikkinchi;
+//            System.out.println("25: " + jami);
+//
+//
+//            int masofa = 6 * 4;
+//            int vaqt = masofa / 8;
+//            System.out.println("26: " + vaqt);
+//
+//
+//            int ishchi1 = 57;
+//            int ishchi2 = ishchi1 - 12;
+//            int jami = (ishchi1 + ishchi2) * 5;
+//            System.out.println("27: " + jami);
+//
+//
+//            int qarich = 192 / 16;
+//            System.out.println("28: " + qarich);
+//
+//
+//            int choyshab = 200 / 6;
+//            int ortiq = 200 % 6;
+//            System.out.println("29: " + choyshab + " choyshab, " + ortiq + " m ortadi");
+//
+//
+//
+//            int narx = (10000 - 100) / 55;
+//            System.out.println("30: " + narx);
+//
+//
+//
+//            int soni = 5000 / 450;
+//            int ortiq = 5000 % 450;
+//            System.out.println("31: " + soni + " dona, " + ortiq + " so'm ortadi");
+//
+//
+//            int bidonlar = 200 / 32;
+//            int oxirgi = 200 % 32;
+//            System.out.println("32: " + bidonlar + " to‘liq, " + oxirgi + " litr oxirgida");
+//
+//
+//            int birinchi = 2350 / 5;
+//            System.out.println("33: " + birinchi);
+//
+//
+//            int tuz = (2 * 14) / (5 + 2);
+//            System.out.println("34: " + tuz);
+//
+//
+//
+//            int son = 1500 / (15 + 45);
+//            System.out.println("35: " + son);
+//
+//
+//            double massa = 7.8;
+//            double jami = 25 + 9 + 5;
+//            double qum = 25 * massa / jami;
+//            System.out.println("36: " + qum);
+//
+
 //      6
 //        System.out.print("B son kiriting> ");
 //        int a=scannerInt.nextInt();
@@ -676,25 +868,23 @@ public class Main {
 //        16
 
 
-        int a = scannerInt.nextInt();
-        int b = scannerInt.nextInt();
-        int c = scannerInt.nextInt();
-
-        if (a == b - 1 && b == c - 1|| c==b-1&&b==a-1) {
-            a *= 2;
-            b *= 2;
-            c *= 2;
-        } else {
-            a = -a;
-            b = -b;
-            c = -c;
-        }
-
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-
-
+//        int a = scannerInt.nextInt();
+//        int b = scannerInt.nextInt();
+//        int c = scannerInt.nextInt();
+//
+//        if (a == b - 1 && b == c - 1|| c==b-1&&b==a-1) {
+//            a *= 2;
+//            b *= 2;
+//            c *= 2;
+//        } else {
+//            a = -a;
+//            b = -b;
+//            c = -c;
+//        }
+//
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
 
 
     }
