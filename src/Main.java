@@ -676,23 +676,23 @@ public class Main {
 //        16
 
 
-//        int a = scannerInt.nextInt();
-//        int b = scannerInt.nextInt();
-//        int c = scannerInt.nextInt();
-//
-//        if (a == b - 1 && b == c - 1|| c==b-1&&b==a-1) {
-//            a *= 2;
-//            b *= 2;
-//            c *= 2;
-//        } else {
-//            a = -a;
-//            b = -b;
-//            c = -c;
-//        }
-//
-//        System.out.println(a);
-//        System.out.println(b);
-//        System.out.println(c);
+        int a = scannerInt.nextInt();
+        int b = scannerInt.nextInt();
+        int c = scannerInt.nextInt();
+
+        if (a == b - 1 && b == c - 1|| c==b-1&&b==a-1) {
+            a *= 2;
+            b *= 2;
+            c *= 2;
+        } else {
+            a = -a;
+            b = -b;
+            c = -c;
+        }
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
 
 
