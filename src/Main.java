@@ -188,25 +188,223 @@ public class Main {
 //            int oxirgi = 200 % 32;
 //            System.out.println("32: " + bidonlar + " to‘liq, " + oxirgi + " litr oxirgida");
 //
-//
+//              33
 //            int birinchi = 2350 / 5;
-//            System.out.println("33: " + birinchi);
+//            System.out.println( birinchi);
 //
-//
+//          34
 //            int tuz = (2 * 14) / (5 + 2);
-//            System.out.println("34: " + tuz);
+//            System.out.println( tuz);
 //
 //
-//
+//              35
 //            int son = 1500 / (15 + 45);
-//            System.out.println("35: " + son);
+//            System.out.println(son);
 //
-//
+//              36
 //            double massa = 7.8;
 //            double jami = 25 + 9 + 5;
 //            double qum = 25 * massa / jami;
-//            System.out.println("36: " + qum);
+//            System.out.println(qum);
+
+
+//        37
+//        int aliPlusSoli = 57;
+//        int soliPlusVali = 56;
+//        int aliPlusVali = 61;
 //
+//        int total = (aliPlusSoli + soliPlusVali + aliPlusVali) / 2;
+//
+//        int ali = total - soliPlusVali;
+//        int soli = total - aliPlusVali;
+//        int vali = total - aliPlusSoli;
+//
+//        System.out.println("37) Ali: " + ali + " kg, Soli: " + soli + " kg, Vali: " + vali + " kg");
+
+//        38
+//        int distance = 240;
+//        int timeNormal = 4;
+//        int speedNormal = distance / timeNormal;
+//        int speedIncreased = speedNormal + 20;
+//        int timeFast = distance / speedIncreased;
+//        int savedTime = timeNormal - timeFast;
+//
+//        System.out.println("38) Oldinroq yetib kelgan vaqt: " + savedTime + " soat");
+
+//        39
+
+//        double total = 1.0;
+//        double quarter = total / 4;
+//        double half = total / 2;
+//        double colored = quarter + half;
+//        double remaining = total - colored;
+//
+//        System.out.println("39) Bo‘yalmagan qismi: " + remaining);
+
+//        40
+
+//        int pages = 320;
+//        double read = pages * 3.0 / 8;
+//        double unread = pages - read;
+//
+//        System.out.println("40) O‘qilgan: " + read + " bet, O‘qilmagan: " + unread + " bet");
+
+//        41
+
+//        int total = 20;
+//        double aziza = total * 3.0 / 10;
+//        double nargiza = total * 4.0 / 10;
+//        double dilnoza = total * 1.0 / 10;
+//        double eaten = aziza + nargiza + dilnoza;
+//        double remaining = total - eaten;
+//
+//        System.out.println("41) Qolgan quymoq: " + remaining);
+
+//        42
+//        double result = 2.0 / 5;
+//        System.out.println("42) Har bir likopchaga: " + result + " qatlama");
+
+//        43
+//            double speedPerMinute = 20.0 / 15;
+//            System.out.println("43) 1 daqiqadagi yo‘l: " + speedPerMinute);
+
+        // 44
+//            int days = 5;
+//            double fraction = 1.0 / 5;
+//            double remaining = 1 - fraction;
+//            double totalDays = days / fraction;
+//            double daysLeft = totalDays - days;
+//            System.out.println("44) Qolgan kunlar: " + daysLeft);
+
+        // 45
+//            int total = 2500;
+//            int sprouted = 2300;
+//            int notSprouted = total - sprouted;
+//            double fraction = notSprouted / (double) total;
+//
+//            System.out.println("45) Unmagan qismi: " + fraction);
+
+        // 46
+//            double firstYear = 2.0 / 7;
+//            double secondYear = 3.0 / 7;
+//            double total = firstYear + secondYear;
+//            int population = 87500;
+//            int connected = (int)(total * population);
+//            int notConnected = population - connected;
+
+//            System.out.println("46) Ulanmaganlar: " + notConnected + " kishi");
+
+        // 47
+//            int lakeSpeed = 27;
+//            int lakeTime = 3;
+//            int riverTime = 4;
+//            int riverSpeed = 27 - 3;
+//            int distance = (lakeSpeed * lakeTime) + (riverSpeed * riverTime);
+
+//            System.out.println("47) Umumiy masofa: " + distance + " km");
+
+//         48
+//            int depth = 11022;
+//            int rounded = Math.round(depth / 1000f);
+//            System.out.println("48) Yaxlitlangan chuqurlik: " + rounded + " km");
+//
+//         49
+//            double x = (320.0 * 17) / 16;
+//            System.out.println("49) Suv ostida bosib o‘tilgan yo‘l: " + x + " km");
+
+
+        // 50
+//            double a = 8.65;
+//            double b = a - 1.7;
+//            double perimeter = 23.89;
+//            double c = perimeter - a - b;
+//            System.out.println("50) Uchinchi tomon: " + c + " dm");
+
+        // 51
+//            double total = 16.712;
+//            double second = 3.062;
+//            double first = second - 1.922;
+//            double third = second - 0.18;
+//            double fourth = total - (first + second + third);
+//            double diff = fourth - second;
+//            System.out.println("51) To‘rtinchi son ikkinchidan " + diff + " ga ortiq");
+
+        // 52
+//            int earth = 12756;
+//            int sun = earth * 109;
+//            System.out.println("52) Quyosh diametri: " + sun + " km");
+
+        // 53
+//            double a = 7.5;
+//            double b = a + 1.3;
+//            double total = a + b + 1.8;
+//            System.out.println("53) A va B orasidagi masofa: " + total + " km");
+
+//       54
+//        double totalTime = 6.0;
+//        double timePassed = 1 + 20.0 / 60;
+//        double fractionFilled = timePassed / totalTime;
+//        System.out.println("54) To‘ldirilgan qism: " + fractionFilled);
+
+//        55
+
+//        double v1 = 13.4;
+//        double t2 = 4.0;
+//        double t1 = t2 + 2;
+//        double s1 = v1 * t1;
+//        double v2 = s1 / t2;
+//        System.out.println("55) Ikkinchi velosipedchi tezligi: " + v2 + " km/soat");
+
+
+//        56
+//        double s = 156.5;
+//        double t = 5;
+//        double v_stream = s / t;
+//        double v_boat = 28.2;
+//        double v_river = v_stream - v_boat;
+//        System.out.println("56) Daryo oqimi tezligi: " + v_river + " km/soat");
+
+//        57
+//        double totalMoney = 172000;
+//        double doppi = totalMoney * 0.1;
+//        double romol = totalMoney * 0.01;
+//        double remaining = totalMoney - doppi - romol;
+//        System.out.println("57) Xaridordan qolgan pul: " + remaining + " so‘m");
+
+//        58
+//        double viewingHeight = 120;
+//        double totalHeight = viewingHeight * 3.125;
+//        System.out.println("58) Teleminora balandligi: " + totalHeight + " m");
+
+//        59
+
+//        double distance = 300;
+//        double timeHours = 2 + 30.0 / 60;
+//        double speed = distance / timeHours;
+//        System.out.println("59) Afrosiyob tezligi: " + speed + " km/soat");
+
+//        60
+//        double speed1 = 800;
+//        double time1 = 45.0 / 60; // 0.75 soat
+//        double speed2 = 750;
+//        double time2 = 1.25; // 1 soat 15 minut = 1.25 soat
+//
+//        double distance1 = speed1 * time1;
+//        double distance2 = speed2 * time2;
+//
+//        double totalDistance = distance1 + distance2;
+//        double totalTime = time1 + time2;
+//        double avgSpeed = totalDistance / totalTime;
+//
+//        System.out.println("60) Samolyotning o‘rtacha tezligi: " + avgSpeed + " km/soat");
+
+
+
+
+
+
+
+
 
 
 
